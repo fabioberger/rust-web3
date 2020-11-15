@@ -12,7 +12,7 @@ use crate::Transport;
 use std::{collections::HashMap, hash::Hash, time};
 
 pub mod deploy;
-mod error;
+pub mod error;
 pub mod tokens;
 
 pub use crate::contract::error::Error;
